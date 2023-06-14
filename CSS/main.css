@@ -1,0 +1,142 @@
+/*para dar um chamado reset na pagina usamos o código abaixo. zeramos a margin e o padding de todos os elementos.*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+body > header {
+  background-color: #2f3640;
+  padding: 16px 0;
+  color: #f5f6fa;
+}
+
+header li a {
+  color: #f5f6fa;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+header li {
+  display: inline;
+  margin-left: 16px;
+}
+
+.container {
+  width: 1366px;
+  margin: 0 auto;
+}
+.articles {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.articles article img {
+  /*height: 180px;*/
+  width: 100%;
+}
+
+.articles article {
+  width: 30%;
+}
+
+.articles p {
+  text-align: justify;
+}
+
+section {
+  padding: 16px 0;
+}
+
+section h2,
+.articles article {
+  margin-bottom: 16px;
+}
+
+.articles article h3 {
+  margin-top: 8px;
+  margin-bottom: 8px;
+  font-size: 24px;
+}
+
+.articles article a {
+  background-color: blue;
+  color: white;
+  padding: 8px;
+  display: inline-block;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 8px;
+}
+
+.articles article a:hover {
+  text-decoration: underline;
+}
+
+.articles article p,
+.articles article a {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+section h2 {
+  font-size: 32px;
+}
+
+#sports {
+  background-color: rgba(0, 255, 0, 0.1);
+}
+
+#sports .articles article a {
+  background-color: rgba(0, 255, 0, 0.3);
+}
+
+#economy {
+  background-color: #f8f59f;
+}
+
+#economy .articles article a {
+  background-color: #ff9f1a;
+}
+
+#entertainment {
+  background-color: rgba(255, 0, 250, 0.2);
+}
+
+#entertainment .articles a {
+  background-color: rgba(205, 0, 190, 0.8);
+}
+
+#tecnology {
+  background-color: rgba(0, 0, 190, 0.4);
+}
+#tecnology .articles a {
+  background-color: rgb(10, 82, 90);
+  color: #e9f0e9da;
+}
+
+/*
+h1{
+  color: rgb(205, 125, 27);
+}
+h2{
+  color: green;
+}
+/*para selecionar um id é um jogo da velha tem que ser unico na pagina*/
+/*
+#economy h2 {
+  color: rgb(176, 162, 86);
+}
+/*para selecionar uma classe é ponto*/
+/*
+.creation-date {
+  color: yellow
+}
+/*tudo que não foi estilizado acima, é estilizado com esse comando debaixo*/
